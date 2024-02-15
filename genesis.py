@@ -43,7 +43,7 @@ def get_args():
     if options.algorithm == "scrypt" or options.algorithm == "X11" or options.algorithm == "X13" or options.algorithm == "X15":
       options.bits = 0x1e0ffff0
     else:
-      options.bits = 0x1b4e81
+      options.bits = 0x1d00ffff
   return options
 
 def get_algorithm(options):
